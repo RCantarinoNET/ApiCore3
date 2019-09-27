@@ -10,7 +10,6 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="ProductsController.cs" t="Include" />
-        <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="ContosoPetsContext.cs" t="Include" />
@@ -34,7 +33,6 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
-      <e p="WeatherForecast.cs" t="Include" />
     </e>
   </component>
 </project>

@@ -6,10 +6,7 @@ namespace PetContoso.Data
 {
     public class ContosoPetsContext : DbContext
     {
-        public ContosoPetsContext(DbContextOptions<ContosoPetsContext> opts) : base(opts)
-        {
-            
-        }
+        public ContosoPetsContext(DbContextOptions<ContosoPetsContext> opts) : base(opts) { }
         
         public DbSet<Product> Products { get; set; }
 
